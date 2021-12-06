@@ -27,7 +27,7 @@ d=1;
 for i=1:n
   for j=1:n
     if (i==j)
-      d*=A(i,j);
+      d *= A(i,j);
     end
   end
 end
